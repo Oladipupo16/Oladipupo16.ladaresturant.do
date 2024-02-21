@@ -1,0 +1,502 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>restaurant dipz</title>
+    <link
+      href="C:\Users\user\Desktop\my portfolio\html\Favicon@2x.png"
+      rel="icon"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/014f498847.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <style>
+      nav {
+        background-color: red;
+        color: white;
+        padding: 10px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+        text-transform: uppercase;
+      }
+
+      nav a:hover{
+        color: yellow;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        column-gap: 30px;
+      }
+      .banner {
+        background-color: blue;
+        height: 200px;
+        background-image: url(banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; position: relative;
+      }
+      .banner div {
+        color: white;
+        width: 40%;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+      }
+      .banner h2{
+        font-size:5vw ;
+        margin: 15px 0;
+      }
+     
+.banner button:hover{background-color: red;
+  color: white;
+cursor: pointer;
+}
+      .service {
+        display: flex;
+        column-gap: 20px;
+        padding: 40px 10%;
+      }
+      .service section {
+        height: 400px;
+        background-color: black;
+        flex: 1;
+      }
+
+      .about {
+        background-color: yellow;
+        display: flex;
+        padding: 40px 10%;
+        column-gap: 5%;
+      }
+
+      .about-img {
+        background-color: black;
+        height: 500px;
+      }
+      .reserve {
+        display: flex;
+      }
+      .reserve-img {
+        background-image: url(couple.jpg);
+        flex: 1;
+        background-size: cover;
+      }
+      .reserve-form {
+        flex: 1;
+        padding: 40px 4%;
+        background-color: rgb(107, 107, 161);
+        color: white;
+      }
+
+      .reserve-form h5 {
+        color: yellow;
+        font-family: "Pacifico", cursive;
+        margin: 5px 0px;
+      }
+      .reserve-form h3 {
+        color: rgb(231, 231, 231);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        margin: 5px 0px 15px 0px;
+      }
+
+      .reserve-form input {
+        height: 35px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .reserve-form div {
+        display: flex;
+        column-gap: 2%;
+      }
+
+      .reserve-form textarea {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 50px;
+      }
+
+      .reserve-form select {
+        flex: 1;
+        height: 35px;
+      }
+      .box {
+        display: flex;
+        column-gap: 20px;
+        padding: 50px 10%;
+      }
+      .box section {
+        background-color: black;
+        flex: 1;
+        height: 200px;
+      }
+      
+      hr{
+           border-color: rgb(255, 68, 0);}
+
+footer li{margin-bottom: 10px;}
+footer h5{margin-bottom: 10px;
+  color: yellow;
+        font-family: "Pacifico", cursive;
+       }
+       footer
+        {
+        background-color: rgb(31, 16, 96);
+        color: white;
+        padding: 5px;
+        border: none; 
+      }
+      . menu
+      {
+        padding: 5%;
+      }
+      .menu-1{
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+
+
+      .menu-1 h5{
+        text-align: center;
+        margin-bottom: 30px;
+        font-family: "Pacifico", cursive;
+        color: orangered;
+      }
+      .menu-2{
+        display: flex; 
+      
+        justify-content: center; 
+      }
+      
+      .menu-2 aside{
+         display: flex; 
+        column-gap: 7%;
+        align-items: center;
+        border-bottom: 1px solid orangered;
+        padding: 0 20px;
+        
+      }
+      
+
+      .menu-2 aside:hover{
+        
+        border-bottom: 2px solid orangered;
+        
+      }
+      
+
+
+
+.menu-2 i{
+  font-size: 3.5rem;
+  color: orangered;
+}
+.menu-2 p{
+  font-size: 2rem;
+}
+.menu-3{
+  display: flex;
+  column-gap: 2%;
+  padding: 5%;
+}
+.food{
+  display: flex;
+  column-gap: 2%;
+  align-items: center;
+}
+
+.food > div{
+  flex: 1;
+  margin: 10px;
+}
+.food article{
+  flex: 7;
+ 
+}
+
+.menu-3 aside{
+  flex: 1;
+}
+article div{
+  display: flex;
+  justify-content: space-between;
+}
+article span{
+  font-weight: bold;
+}
+.price {
+  
+  font-weight: bolder;
+  color: rgb(234, 94, 19);
+
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <center>
+        <a href="index.html"
+          ><img
+            src="C:\Users\user\Desktop\my portfolio\html\Lada logo@2x.png"
+            alt="logo"
+            height="100px"
+        /></a>
+      </center>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"> <li>About</li></a>
+        <a href="service.html"><li>Services</li></a>
+        <a href="menu.html"><li>Menu</li></a>
+        <a href="blog.html"> <li>Blog</li></a>
+        <a href="reserve.html"> <li>Reservation</li></a>
+      </ul>
+    </nav>
+
+    <main class="banner">
+      <div>
+      <h2>Menu</h2>
+
+    </main>
+     
+    <main class="menu">
+      <section class="menu-1">
+       <h5> Food Menu</h5>
+       <h2> Most Popular Item</h2>
+      </section>
+
+
+
+      <section class="menu-2">
+        <aside>
+          <div><i class="fa-solid fa-mug-hot"></i></div>
+         
+            <div><P>Popular <br>
+              
+            <strong>Breakfast</strong>
+         </p>
+         </div>
+        </aside>
+        <aside>
+          <div><i class="fa-solid fa-burger"></i></div>
+          <div><P>Special <br>
+            
+          <strong>Lunch</strong></P>
+         </div>
+        </aside>
+        <aside>
+          <div><i class="fa-solid fa-utensils"></i></div>
+          <div><p>Lovely<br>
+            
+          <strong>Dinner</strong></p>
+         </div>
+        </aside>
+
+        
+      </section>
+
+
+
+      <section class="menu-3">
+        <aside>
+        <div class="Food">
+          <div><img src="porrage.jpg" width="100%"></div>
+          <article>
+<div>   <span> Bombay porridge </span>         <span class="price">$326</span>     
+</div>   
+            <hr>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, perferendis.</p>
+          </article>
+
+
+
+        </div>
+        <div class="Food">
+         <div> <img src="porrage.jpg" width="100%"></div>
+          <article>
+<div>   <span> Bombay porridge </span>         <span class="price">$326</span>     
+</div>   
+            <hr>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, perferendis.</p>
+          </article>
+
+
+
+        </div>
+        <div class="Food">
+         <div> <img src="porrage.jpg" width="100%"></div>
+          <article>
+<div>   <span> Bombay porridge </span>         <span class="price">$326</span>     
+</div>   
+            <hr>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, perferendis.</p>
+          </article>
+
+
+
+        </div>
+        <div class="Food">
+         <div> <img src="porrage.jpg" width="100%"></div>
+          <article>
+<div>   <span> Bombay porridge </span>         <span class="price">$326</span>     
+</div>   
+            <hr>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, perferendis.</p>
+          </article>
+
+
+
+        </div>
+
+
+        </aside>
+
+
+        <aside>
+          <div class="Food">
+            <div><img src="porrage.jpg" width="100%"></div>
+            <article>
+  <div>   <span> Bombay porridge </span>         <span class="price">$326</span>     
+</div>   
+              <hr>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, perferendis.</p>
+            </article>
+  
+  
+  
+          </div> <div class="Food">
+           <div> <img src="porrage.jpg" width="100%"></div>
+            <article>
+  <div>   <span> Bombay porridge </span>         <span class="price">$326</span>     
+</div>   
+              <hr>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, perferendis.</p>
+            </article>
+  
+  
+  
+          </div> <div class="Food">
+            <div><img src="porrage.jpg" width="100%"></div>
+            <article>
+  <div>   <span> Bombay porridge </span>         <span class="price">$326</span>     
+</div>   
+              <hr>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, perferendis.</p>
+            </article>
+  
+  
+  
+          </div> <div class="Food">
+            <div><img src="porrage.jpg" width="100%"></div>
+            <article>
+  <div>   <span> Bombay porridge </span>         <span class="price">$326</span>     
+</div>   
+              <hr>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, perferendis.</p>
+            </article>
+  
+  
+  
+          </div>
+        </aside>
+      </section>
+
+
+
+
+      <section class=menu-4></section>
+
+
+    </main>
+
+
+  
+
+
+     
+  
+    <footer>
+     
+    
+      <footer style="width: padding: 5%;">
+        <section style="display: flex;
+         column-gap: 5%;
+          flex: 1;">
+        <div style="list-style: square;
+         margin: 0 2%;">
+  
+          <h5 class="com">company</h5>
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>Reservation</li>
+        <li>Privacy Policy</li>
+        <li>Terms & Condition</li>
+          </div>
+  <div style="list-style: none; flex: 1;">
+  <h5 class="con">Contact</h5>
+  <li>St Rapheal Limited, Lagos Island, Lagos 101233, Lagos</li>
+  <li>+234812345693</li>
+  <li>ladaresturant@gmail.com</li>
+  </div>
+  <div style="flex: 1;">
+  <h5 class="ope">opening</h5>
+  <p>Monday-Saturday:</p>
+  <p>09AM-09PM</p>
+  <p>Sunday:</p>
+  <p>10AM-08PM</p>
+  
+  </div>
+  <div style="flex: 1;">
+    <h5 class="new">Newsletter</h5>
+    
+    <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. srentijiedfiginmyi.</p>
+  
+    <aside style="display: flex; width: 100%; padding: 5px; ">
+      <input type="email" placeholder="Your Email" style="border: none; flex 2">
+    
+      <input type="submit" value="SIGN UP" >
+  
+    </div>
+  
+  </section>
+   
+  <hr>
+  
+        <section style="display: flex;">
+          
+            <h6 style="flex: 3; color: yellow;">
+              &#169; Restaurant Eleniyan Lada All Reserved Design by Dipz
+        
+            </h6>
+        <h6 style="display: flex;list-style: none; column-gap: 2%; flex: 1; color:yellow ;">
+         <I> <li>Home<li></I>
+         <I> <li>Cookies</li></I>
+         <I><li>Help</li></I>
+         <I><li>FQAs</li></I>
+        </H6>  
+        </section>
+      
+      
+      </footer>
+  </body>
+</html>

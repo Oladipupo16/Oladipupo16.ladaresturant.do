@@ -1,0 +1,559 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>restaurant dipz</title>
+    <link
+      href="C:\Users\user\Desktop\my portfolio\html\Favicon@2x.png"
+      rel="icon"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pacifico&family=Zeyada&display=swap" rel="stylesheet">
+
+    <style>
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+#sticky{
+
+position: sticky;
+top:0;
+z-index: 2;
+background-color: white;
+
+}
+
+
+
+
+
+      nav {
+        background-color: red;
+        color: white;
+        padding: 10px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+        text-transform: uppercase;
+      }
+
+      nav a:hover{
+        color: yellow;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        column-gap: 30px;
+      }
+      .banner {
+        background-color: blue;
+        height: 200px;
+        background-image: url(banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; position: relative;
+      }
+      .banner div {
+        color: white;
+        width: 40%;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+      }
+      .banner h2{
+        font-size:5vw ;
+        margin: 15px 0;
+      }
+     
+.banner button:hover{background-color: red;
+  color: white;
+cursor: pointer;
+}
+      .service {
+        display: flex;
+        column-gap: 20px;
+        padding: 40px 10%;
+      }
+      .service section {
+        height: 400px;
+        background-color: black;
+        flex: 1;
+      }
+
+      .about {
+        background-color: black;
+        display: flex;
+        padding: 40px 5%;
+        column-gap: 5%;
+        align-items: end;
+      }
+      .about p {
+        color: white;
+      }
+      
+      
+      .buju {background-color:rgb(223, 131, 39);
+ padding: 5% 5%; border-top-right-radius: 40px; 
+border-top-left-radius: 40px;
+ border-bottom-right-radius: 40px;}
+
+    .team {
+padding: 5%;
+background-color: whitesmoke;
+
+    }
+.team h4 {
+  color: rgba(250, 155, 13, 0.923);
+font-family:  "Pacifico", cursive;
+}
+    .team section{
+      display: flex;
+      column-gap: 2%;
+    }
+    .team img{
+      border-radius: 50%;
+      width: 100%;
+      transition: height 1s;
+
+            overflow: hidden;
+    }
+
+    .team div:hover {
+            height: 300px;
+            
+        }
+
+    .team i {
+            background-color: orangered;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            
+            
+            
+        }
+
+
+
+
+    .team div{
+      flex: 1;
+            text-align: center;
+            background-color: white;
+            padding: 2%;
+            height: 260px;
+            
+    }
+
+
+    .if {
+            display: flex;
+            column-gap: 5%px;
+            padding: 0% 10%;
+        }
+
+        .if article {
+            flex: 1;
+
+        }
+
+        .if section {
+            
+            align-items: center;
+            padding: 5% 5%;
+            column-gap: 3%;
+        }
+
+        article img {
+            border-radius: 50%;
+            width: 100px;
+        }
+
+        .if article {
+
+            margin: 0
+        }
+
+        .if aside {
+            flex: 8;
+        }
+
+    
+      
+    
+    
+  
+
+
+
+
+      .box {
+        display: flex;
+        column-gap: 5%;
+        padding: 5%;
+      }
+      .box section {
+        background-color: rgb(0, 0, 0);
+        flex: 1;
+        border-radius: 20px; height: 250px;
+        text-align: center;padding: 3%; margin: 5px 0px;
+      }
+
+      footer {
+        background-color: rgb(31, 16, 96);
+        color: white;
+        padding: 5px;
+        border: none; 
+      }
+      
+.box p{color: white;}
+
+
+.box h3{ font-family: "Pacifico", cursive;
+        color: yellow}
+
+        
+        hr{
+           border-color: yellow;}
+
+footer li{margin-bottom: 10px;}
+footer h5{margin-bottom: 10px;
+  color: yellow;
+        font-family: "Pacifico", cursive;
+       }
+       @media only screen and (max-width:600px){
+
+        .about {
+        background-color: black;
+        display: flex;
+        padding: 40px 5%;
+        flex-direction: column-reverse;} 
+       }
+
+       .foot{
+        width: padding: 5%;
+      }
+     
+
+       
+
+    </style>
+  </head>
+  <body>
+
+   <main id="sticky">
+      
+      <header>
+        <center>
+          <a href="index.html"
+            ><img
+              src="C:\Users\user\Desktop\my portfolio\html\Lada logo@2x.png"
+              alt="logo"
+              height="100px"
+          /></a>
+        </center>
+      </header>
+      <nav>
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="about.html"> <li>About</li></a>
+          <a href="service.html"><li>Services</li></a>
+          <a href="menu.html"><li>Menu</li></a>
+          <a href="blog.html"> <li>Blog</li></a>
+          <a href="reserve.html"> <li>Reservation</li></a>
+        </ul>
+      </nav>
+  
+   </main>
+
+    <main class="banner">
+      <div>
+        <h2>About Us</h2>
+
+    </main>
+
+    <main class="About">
+      <section style="flex: 3">
+        <h2 style="color: white;">
+          About us</h2>
+
+
+        <h1 style="
+        font-family: 'Zeyada', cursive;
+         color: yellow;" >
+         Restaurant Eleniyan Lada</h1>
+        
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
+          dolore, deserunt exercitationem ipsam quas harum quae sapiente magnam
+          illo enim dolores qui quo, obcaecati nobis nesciunt veniam! Minima,
+          sapiente repudiandae!
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+          reprehenderit distinctio ut natus aperiam magnam quo vel officia
+          quibusdam expedita minus quae id quos atque, illo provident. Unde,
+          rerum recusandae!
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil atque exercitationem ipsum! Excepturi vitae omnis eum explicabo dolore modi assumenda hic id consequatur. Nulla veritatis commodi ratione ad esse rerum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint modi itaque in earum voluptate. Nobis repellendus ut, molestiae sequi molestias praesentium! Ipsam suscipit a quam rerum temporibus at autem velit.</p>
+        
+      </section>
+      <section style="flex: 2;">
+      <img src="aboutpic.jpg" 
+      width="100%"> 
+      
+     </section>
+   
+
+    </main>
+      
+     <div style="display: flex; 
+     column-gap: 2%;
+      background-color: black; 
+      color: white;
+       padding: 4% 5%;">
+
+      <section style="background-color:rgba(144, 85, 69, 0.872);
+       padding: 5% 5%;
+        border-top-right-radius: 40px; 
+        border-bottom-left-radius: 40px;
+         border-top-left-radius: 40px; ">
+
+
+        <h2 style="color: yellow;">Our Misson</h2>
+        
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ad ratione error. Dolores hic dolorum blanditiis quis aliquid repellat quam reprehenderit enim, perferendis doloribus maiores qui velit dignissimos! Dicta, hic.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint laboriosam quo sequi libero aliquam impedit eos enim laborum perspiciatis expedita, repellat blanditiis, iusto voluptas corrupti a dicta assumenda esse? Deserunt.</p>
+      </section>
+
+<section class="buju">
+
+
+<h2 style="color: yellow;">Our Vision</h2>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis a sequi facere nemo vero soluta quae? Officia sint earum omnis a quaerat cum quidem quos sunt. Recusandae ut a natus.</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam architecto assumenda eveniet fugiat debitis, eaque ipsam ipsa? Nulla, illo! Hic accusantium saepe libero rerum est distinctio nulla, eum quo expedita.</p>
+
+</section>
+
+     </div>
+
+     <main  class="team">
+<center><h4>Our Member</h4></center>
+<center><h2>Our Master Chefs</h2></center>
+<section>
+
+<div>
+<img src="chef3.jpg" height="95%">
+<p><b>Quan Dipz</b></p> <br>
+Executive Chef
+
+
+
+<article>
+  <i class="bi bi-facebook"></i>
+  <i class="bi bi-twitter-x"></i>
+  <i class="bi bi-instagram"></i>
+</article>
+
+
+</div>
+
+
+
+<div>
+  <img src="chef2.webp" height="90%">
+  <p><b>Heritage sneh</b></p> <br>
+  Grill Chef
+
+  <article><i class="bi bi-facebook"></i>
+    <i class="bi bi-twitter-x"></i>
+    <i class="bi bi-instagram"></i>
+</article>
+  </div>
+
+
+  
+<div>
+  <img src="chef1.jpeg" height="87%" >
+  <p><b>Esv Omoakin</b></p> <br>
+  Sous Chef
+
+  <article><i class="bi bi-facebook"></i>
+    <i class="bi bi-twitter-x"></i>
+    <i class="bi bi-instagram"></i>
+</article>
+  </div>
+
+
+  
+<div >
+  <img src="chef4.jpg"  width="50%" height="87%">
+  <p><b>standard sleek</b></p> <br>
+  Saucier (Saute Chef)
+
+
+  <article><i class="bi bi-facebook"></i>
+    <i class="bi bi-twitter-x"></i>
+    <i class="bi bi-instagram"></i>
+</article>
+  </div>
+</section>
+
+
+
+
+
+     </main>
+<Main class="if">
+<Section>
+<img src="symbol of hope.jpg" width="30px">
+<p>Lorem ipsum dolor, sit amet consectetur adipisicinaliquam modi molestiae neque veritatis, consequuntur libero fuga voluptas, eos sed debitis at repellat ea dolorem.</p>
+
+
+  <div>
+<article><img src="cost4.jpeg"></article>
+
+<aside>
+<h4><b>Olanrewaju</b></h4>
+cyber security
+</aside>
+  </div>
+</Section>
+
+
+<Section>
+  <img src="symbol of hope.jpg" width="30px">
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicinaliquam modi molestiae neque veritatis, consequuntur libero fuga voluptas, eos sed debitis at repellat ea dolorem.</p>
+  
+  
+    <div>
+  <article><img src="cost2.jpeg"></article>
+
+  <aside>
+  <h4><b>Damife</b></h4>
+  Footballer
+  </aside>
+    </div>
+  </Section>
+
+  <Section>
+    <img src="symbol of hope.jpg" width="30px">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicinaliquam modi molestiae neque veritatis, consequuntur libero fuga voluptas, eos sed debitis at repellat ea dolorem.</p>
+    
+    
+      <div>
+    <article><img src="cost3.jpg"></article>
+    <aside>
+    <h4><b>Tiresimi</b></h4>
+    Doctor
+  </aside>
+        
+      </div>
+    </Section>
+
+
+    <Section>
+      <img src="symbol of hope.jpg" width="30px">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicinaliquam modi molestiae neque veritatis, consequuntur libero fuga voluptas, eos sed debitis at repellat ea dolorem.</p>
+      
+      
+        <div>
+      <article><img src="cost1.jpg" width="0%" ></article>
+
+      <aside>
+      <h4><b>Anjola</b></h4>
+      pilot
+    </aside>
+        </div>
+      </Section>
+
+
+</Main>
+    
+  
+    <footer>
+     
+    
+    <footer class="foot">
+
+      <section style="display: flex;
+       column-gap: 5%;
+        flex: 1;">
+      <div style="list-style: square;
+       margin: 0 2%;">
+
+
+
+
+
+
+        <h5 class="com">company</h5>
+      <li>About Us</li>
+      <li>Contact Us</li>
+      <li>Reservation</li>
+      <li>Privacy Policy</li>
+      <li>Terms & Condition</li>
+        </div>
+<div style="list-style: none; flex: 1;">
+<h5 class="con">Contact</h5>
+<li>St Rapheal Limited, Lagos Island, Lagos 101233, Lagos</li>
+<li>+234812345693</li>
+<li>ladaresturant@gmail.com</li>
+</div>
+<div style="flex: 1;">
+<h5 class="ope">opening</h5>
+<p>Monday-Saturday:</p>
+<p>09AM-09PM</p>
+<p>Sunday:</p>
+<p>10AM-08PM</p>
+
+</div>
+<div style="flex: 1;">
+  <h5 class="new">Newsletter</h5>
+  
+  <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. srentijiedfiginmyi.</p>
+
+  <aside style="display: flex; width: 100%; padding: 5px; ">
+    <input type="email" placeholder="Your Email" style="border: none; flex 2">
+  
+    <input type="submit" value="SIGN UP" >
+
+  </div>
+
+</section>
+ 
+<hr>
+
+      <section style="display: flex;">
+        
+          <h6 style="flex: 3; color: yellow;">
+            &#169; Restaurant Eleniyan Lada All Reserved Design by Dipz
+      
+          </h6>
+      <h6 style="display: flex;list-style: none; column-gap: 2%; flex: 1; color:yellow ;">
+       <I> <li>Home<li></I>
+       <I> <li>Cookies</li></I>
+       <I><li>Help</li></I>
+       <I><li>FQAs</li></I>
+      </H6>  
+      </section>
+    
+    
+    </footer>
+  </body>
+</html>

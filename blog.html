@@ -1,0 +1,256 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>restaurant dipz</title>
+    <link
+      href="C:\Users\user\Desktop\my portfolio\html\Favicon@2x.png"
+      rel="icon"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      nav {
+        background-color: red;
+        color: white;
+        padding: 10px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+        text-transform: uppercase;
+      }
+
+      nav a:hover{
+        color: yellow;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        column-gap: 30px;
+      }
+      .banner {
+        background-color: blue;
+        height: 200px;
+        background-image: url(banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; position: relative;
+      }
+      .banner div {
+        color: white;
+        width: 40%;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+      }
+      .banner h2{
+        font-size:5vw ;
+        margin: 15px 0;
+      }
+     
+.banner button:hover{background-color: red;
+  color: white;
+cursor: pointer;
+}
+      .service {
+        display: flex;
+        column-gap: 20px;
+        padding: 40px 10%;
+      }
+      .service section {
+        height: 400px;
+        background-color: black;
+        flex: 1;
+      }
+
+      .about {
+        background-color: yellow;
+        display: flex;
+        padding: 40px 10%;
+        column-gap: 5%;
+      }
+
+      .about-img {
+        background-color: black;
+        height: 500px;
+      }
+      .reserve {
+        display: flex;
+      }
+      .reserve-img {
+        background-image: url(couple.jpg);
+        flex: 1;
+        background-size: cover;
+      }
+      .reserve-form {
+        flex: 1;
+        padding: 40px 4%;
+        background-color: rgb(107, 107, 161);
+        color: white;
+      }
+
+      .reserve-form h5 {
+        color: yellow;
+        font-family: "Pacifico", cursive;
+        margin: 5px 0px;
+      }
+      .reserve-form h3 {
+        color: rgb(231, 231, 231);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        margin: 5px 0px 15px 0px;
+      }
+
+      .reserve-form input {
+        height: 35px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .reserve-form div {
+        display: flex;
+        column-gap: 2%;
+      }
+
+      .reserve-form textarea {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 50px;
+      }
+
+      .reserve-form select {
+        flex: 1;
+        height: 35px;
+      }
+      .box {
+        display: flex;
+        column-gap: 20px;
+        padding: 50px 10%;
+      }
+      .box section {
+        background-color: black;
+        flex: 1;
+        height: 200px;
+      }
+      footer {
+        background-color: rgb(31, 16, 96);
+        color: white;
+        padding: 5px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <center>
+        <a href="index.html"
+          ><img
+            src="C:\Users\user\Desktop\my portfolio\html\Lada logo@2x.png"
+            alt="logo"
+            height="100px"
+        /></a>
+      </center>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"> <li>About</li></a>
+        <a href="service.html"><li>Services</li></a>
+        <a href="menu.html"><li>Menu</li></a>
+        <a href="blog.html"> <li>Blog</li></a>
+        <a href="reserve.html"> <li>Reservation</li></a>
+      </ul>
+    </nav>
+
+    <main class="banner">
+      <div>
+        <h2>Blog</h2>
+
+    </main>
+
+    <main class="Service">
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+    <main class="About">
+      <section style="flex: 3">
+        <h2>About us</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
+          dolore, deserunt exercitationem ipsam quas harum quae sapiente magnam
+          illo enim dolores qui quo, obcaecati nobis nesciunt veniam! Minima,
+          sapiente repudiandae!
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+          reprehenderit distinctio ut natus aperiam magnam quo vel officia
+          quibusdam expedita minus quae id quos atque, illo provident. Unde,
+          rerum recusandae!
+        </p>
+      </section>
+      <section class="about-img" style="flex: 2"></section>
+    </main>
+    <main class="reserve">
+      <section class="reserve-img"></section>
+
+      <section class="reserve-form">
+        <form>
+          <h5>Reservation</h5>
+          <h3>Book a table online</h3>
+          <div>
+            <input type="text" placeholder="your name" />
+            <input type="email" placeholder="your email" name="http" id="" />
+          </div>
+          <div>
+            <input type="datetime-local" placeholder="date & time" id="" />
+            <select>
+              <option>No of people</option>
+              <option>1 person</option>
+              <option>2 people</option>
+              <option>3 people</option>
+              <option>4 people</option>
+              <option>5 people</option>
+            </select>
+          </div>
+          <textarea rows="10px">Speacial Request</textarea>
+          <input
+            type="submit"
+            value="BOOK NOW"
+            style="
+              background-color: yellow;
+              color: rgb(23, 220, 118);
+              border: none;
+            "
+          />
+        </form>
+      </section>
+    </main>
+    <main class="box">
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+    <footer>
+      <center>
+        <i
+          ><h5>
+            &#169; Restaurant Eleniyan Lada All Reserved Design by Dipz
+          </h5></i
+        >
+      </center>
+    </footer>
+  </body>
+</html>

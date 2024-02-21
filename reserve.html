@@ -1,0 +1,339 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>restaurant dipz</title>
+    <link
+      href="C:\Users\user\Desktop\my portfolio\html\Favicon@2x.png"
+      rel="icon"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      nav {
+        background-color: red;
+        color: white;
+        padding: 10px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+        text-transform: uppercase;
+      }
+
+      nav a:hover{
+        color: yellow;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        column-gap: 30px;
+      }
+      .banner {
+        background-color: blue;
+        height: 200px;
+        background-image: url(banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; position: relative;
+      }
+      .banner div {
+        color: white;
+        width: 40%;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+      }
+      .banner h2{
+        font-size:5vw ;
+        margin: 15px 0;
+      }
+     
+.banner button:hover{background-color: red;
+  color: white;
+cursor: pointer;
+}
+      .service {
+        display: flex;
+        column-gap: 20px;
+        padding: 40px 10%;
+      }
+      .service section {
+        height: 400px;
+        background-color: black;
+        flex: 1;
+      }
+
+      .about {
+        background-color: yellow;
+        display: flex;
+        padding: 40px 10%;
+        column-gap: 5%;
+      }
+
+      .about-img {
+        background-color: black;
+        height: 500px;
+      }
+      .reserve {
+        display: flex;
+      }
+      .reserve-img {
+        background-image: url(couple.jpg);
+        flex: 1;
+        background-size: cover;
+      }
+      .reserve-form {
+        flex: 1;
+        padding: 40px 15%;
+        background-color: rgb(107, 107, 161);
+        color: white;
+      }
+
+      .reserve-form h5 {
+        color: yellow;
+        font-family: "Pacifico", cursive;
+        margin: 5px 0px;
+      }
+      .reserve-form h3 {
+        color: rgb(231, 231, 231);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        margin: 5px 0px 15px 0px;
+      }
+
+      .reserve-form input {
+        height: 35px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .reserve-form div {
+        display: flex;
+        column-gap: 2%;
+      }
+
+      .reserve-form textarea {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 50px;
+      }
+
+      .reserve-form select {
+        flex: 1;
+        height: 35px;
+      }
+      .box {
+        display: flex;
+        column-gap: 5%;
+        padding: 5%;
+      }
+      .box section {
+        background-color: rgb(0, 0, 0);
+        flex: 1;
+        border-radius: 20px; height: 250px;
+        text-align: center;padding: 3%; margin: 5px 0px;
+      }
+
+      footer {
+        background-color: rgb(31, 16, 96);
+        color: white;
+        padding: 5px;
+        border: none; 
+      }
+      .Newsletter{display: flex;
+      column-gap: 2%;
+    background-color: rgb(255, 255, 255);
+  
+  
+    padding: 1px;
+    }
+      
+      .Newsletter input[type="submit"]{
+
+        background-color: goldenrod;
+        font-size: x-small;
+        position: relative;
+
+
+      }
+
+
+.box p{color: white;}
+
+
+.box h3{ font-family: "Pacifico", cursive;
+        color: yellow}
+
+        
+        hr{height: 0.1px;
+           border-color: yellow;}
+
+footer li{margin-bottom: 10px;}
+footer h5{margin-bottom: 10px;
+  color: yellow;
+        font-family: "Pacifico", cursive;
+       }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <center>
+        <a href="index.html"
+          ><img
+            src="C:\Users\user\Desktop\my portfolio\html\Lada logo@2x.png"
+            alt="logo"
+            height="100px"
+        /></a>
+      </center>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"> <li>About</li></a>
+        <a href="service.html"><li>Services</li></a>
+        <a href="menu.html"><li>Menu</li></a>
+        <a href="blog.html"> <li>Blog</li></a>
+        <a href="reserve.html"> <li>Reservation</li></a>
+      </ul>
+    </nav>
+
+    <main class="banner">
+      <div>
+        <h2>Reservation</h2>
+    </main>
+
+
+    <main class="box">
+      <section>
+        <h3>Location</h3>
+<p> St Rapheal Limited, Lagos Island, Lagos 101233, Lagos Nigeria</p>
+
+      </section>
+      <section>
+        <h3>Phone no</h3>
+      <p>+234 812 345 3693</p>
+      <p>+234 708 134 3456</p>
+      </section>
+      <section>
+        <h3>Email</h3>
+      <p>ladaresturant@gmail.com</p>
+      <p>info@ladaresturant.com</p>
+      </section>
+      
+    </main>
+
+
+    <main class="reserve">
+      <section class="reserve-img"></section>
+
+      <section class="reserve-form">
+        <form>
+          <h5>Reservation</h5>
+          <h3>Book a table online</h3>
+          <div>
+            <input type="text" placeholder="your name" />
+            <input type="email" placeholder="your email" name="http" id="" />
+          </div>
+          <div>
+            <input type="datetime-local" placeholder="date & time" id="" />
+            <select>
+              <option>No of people</option>
+              <option>1 person</option>
+              <option>2 people</option>
+              <option>3 people</option>
+              <option>4 people</option>
+              <option>5 people</option>
+            </select>
+          </div>
+          <textarea rows="10px">Speacial Request</textarea>
+          <input
+            type="submit"
+            value="BOOK NOW"
+            style="
+              background-color: yellow;
+              color: rgb(23, 220, 118);
+              border: none;
+            "
+          />
+        </form>
+      </section>
+    </main>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d126827.29500307576!2d3.264458055650498!3d6.602984231566423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x103b938e127e49ff%3A0x1b51dd9887ef0b97!2sShop%201%2C%205%2F7%20Ali%20Balogun%20St%2C%20Lagos%20Island%2C%20Lagos%20101233%2C%20Lagos!3m2!1d6.602990999999999!2d3.34686!5e0!3m2!1sen!2sng!4v1706996645322!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    
+    <footer style=" padding: 5%;">
+      <section style="display: flex; column-gap: 5%;  flex: 1;">
+      <div style="list-style: square; margin: 0 2%;">
+        <h5 class="com">company</h5>
+      <li>About Us</li>
+      <li>Contact Us</li>
+      <li>Reservation</li>
+      <li>Privacy Policy</li>
+      <li>Terms & Condition</li>
+        </div>
+<div style="list-style: none; flex: 1;">
+<h5 class="con">Contact</h5>
+<li>St Rapheal Limited, Lagos Island, Lagos 101233, Lagos</li>
+<li>+234812345693</li>
+<li>ladaresturant@gmail.com</li>
+</div>
+<div style="flex: 1;">
+<h5 class="ope">opening</h5>
+<p>Monday-Saturday:</p>
+<p>09AM-09PM</p>
+<p>Sunday:</p>
+<p>10AM-08PM</p>
+
+</div>
+<div style="flex: 1;">
+  <h5 class="new">Newsletter</h5>
+  
+  <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. srentijiedfiginmyi.</p>
+
+
+
+  <aside class="Newsletter">
+
+    
+    <input type="email" placeholder="Your Email" style="flex: 3; border: none;">
+  
+    <input type="submit" value="SIGN UP" style="flex: 1; border: none;">
+  </aside>
+  </div>
+
+</section>
+ 
+<hr>
+
+      <section style="display: flex;">
+        
+          <h5 style="flex: 3;">
+            &#169; Restaurant Eleniyan Lada All Reserved Design by Dipz
+      
+          </h5>
+      <H5 style="display: flex;list-style: none; column-gap: 2%; flex: 1;">
+       <I> <li>Home<li></I>
+       <I> <li>Cookies</li></I>
+       <I><li>Help</li></I>
+       <I><li>FQAs</li></I>
+      </H5>  
+      </section>
+    
+    </footer>
+  </body>
+</html>
